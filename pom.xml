@@ -5,6 +5,11 @@
 	<artifactId>basic-proj-4</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<dependencies>
+	<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
 	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
