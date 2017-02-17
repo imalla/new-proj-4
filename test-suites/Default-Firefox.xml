@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+     <test verbose="2" name="Default-Chrome">
+           <groups>
+                <run>
+                      <exclude name="safari"></exclude>
+                      <exclude name="chrome"></exclude>
+                </run>
+           </groups>
+           <packages>
+                <package name="com.sqa.im.*"></package>
+           </packages>
+     </test>
+</suite>
